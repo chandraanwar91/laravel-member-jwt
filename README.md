@@ -1,6 +1,6 @@
 # Member JWT Application
 
-This repository contains a member JWT application using laravel programming language.
+This repository contains a member JWT application using laravel lumen programming language.
 
 # Installation
 ```shell
