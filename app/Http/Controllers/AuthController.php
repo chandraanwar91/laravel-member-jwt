@@ -52,6 +52,7 @@ class AuthController extends ApiController
 
         $member = $this->model->create($memberData);
         $token = JWTAuth::fromUser($member->refresh());
+        //uncomment if only configuration mail already set
         //event(new MemberRegistered($member));
 
         // Trying to prevent clock skew
@@ -113,7 +114,8 @@ class AuthController extends ApiController
         if ($member) {
             $member->reset_token = generateUUID();
             $member->save();
-            dispatch(new SendResetPasswordEmail($member));
+            //uncomment if only configuration mail already set
+            //dispatch(new SendResetPasswordEmail($member));
         }
 
         return $this->respond(['status' => 'success']);
