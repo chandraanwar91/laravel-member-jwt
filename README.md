@@ -22,5 +22,5 @@ For API Documentation I used postman
 
 ```shell
 # Postman Collection URL 
-$ https://www.getpostman.com/collections/214ae8f432bcdffa7139
+$ [https://www.getpostman.com/collections/214ae8f432bcdffa7139]
 ```
