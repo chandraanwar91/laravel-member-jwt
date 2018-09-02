@@ -7,7 +7,7 @@ This repository contains a member JWT application using laravel programming lang
 git clone git@github.com:chandraanwar91/laravel-member-jwt.git
 ```
 Copy file configuration
-Copy File config.example.yaml to config.yaml and dbconf.example.yml to dbconf.yml in folder db
+Copy File env.example to .env
 
 # Usage and Demo
 
