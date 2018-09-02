@@ -9,15 +9,6 @@ git clone git@github.com:chandraanwar91/laravel-member-jwt.git
 Copy file configuration
 Copy File env.example to .env
 
-# Usage and Demo
-
-Create the Docker image according to [Dockerfile](Dockerfile).
-
-```shell
-# This may take a few minutes.
-$ docker-compose up
-```
-
 For API Documentation I used postman
 
 ```shell
