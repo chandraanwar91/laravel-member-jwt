@@ -83,7 +83,7 @@ class MemberRepository implements MemberInterface{
             if (strpos($keyword, '@')) {
                 $members->where('email', $keyword);
             } else {
-                $members->where('nama', 'like', '%' . $keyword . '%');
+                $members->where('fullname', 'like', '%' . $keyword . '%');
             }
         }
 
